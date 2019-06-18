@@ -1,0 +1,9 @@
+﻿  CIniFile.cpp
+c:\users\dou\source\repos\ini_file\ini_file\cinifile.cpp(123): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\dou\source\repos\ini_file\ini_file\cinifile.cpp(142): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\dou\source\repos\ini_file\ini_file\cinifile.cpp(143): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\dou\source\repos\ini_file\ini_file\cinifile.cpp(152): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\dou\source\repos\ini_file\ini_file\cinifile.cpp(163): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  ini_file.cpp
+  正在生成代码...
+  ini_file.vcxproj -> C:\Users\dou\source\repos\ini_file\x64\Debug\ini_file.exe
