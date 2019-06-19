@@ -12,9 +12,10 @@
 
 using namespace std;
 
-#define ERR_NONE     0
-#define ERR_READ_FILE 1
-#define ERR_NOT_FIND  2
+#define ERR_NONE        0
+#define ERR_READ_FILE   1
+#define ERR_NOT_FIND    2
+#define ERR_WRITE_FILE  3
 
 typedef struct ini_item
 {
@@ -60,5 +61,6 @@ protected:
 	void trimStringHead(string& line, char c);//将line前方的c全部去掉
 	void trimStringTail(string& line, char c);//将line尾部的c全部去掉
 
-	unordered_map<string, SectionItem> m_map;//保存ini文件内容
+	//unordered_map<string, SectionItem> m_map;//保存ini文件内容
+	vector<SectionItem> m_vec;//保存ini文件内容
 };
